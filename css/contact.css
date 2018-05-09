@@ -1,0 +1,56 @@
+.contact-left{
+background: #454555;
+padding: 80px 50px;
+color: #efefef;
+background-image: -webkit-radial-gradient(center, ellipse cover, rgb(156, 149, 149) -100%,rgba(33, 31, 29, 0.92) 70%), url("../images/map.png");
+} 
+.contact-right{
+background: #ffbe44;
+
+}
+.vertical-center{
+	/*overflow: hidden;*/
+}
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+.vertical-center{
+	/*padding: 20px;*/
+ }
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { ... }
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+.logoOnLeft{
+	display: inline-block;
+}
+.logoOnCenter{
+	display: none !important;
+ }
+}
+/*// For Screen size more than the NAVBAR breakpoint(More than 991.98px)*/
+@media (min-width: 991.98px) { 
+	
+.nav-item{
+	padding: 10px 25px;
+}
+
+.logoOnLeft{
+	display: none !important;
+}
+.logoOnCenter{
+	display: inline-block;
+ }
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
+
+/*// Extra large devices (large desktops)*/
+/*// No media query since the extra-large breakpoint has no upper bound on its width*/
