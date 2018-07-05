@@ -1,5 +1,9 @@
 /*!
+<<<<<<< HEAD
+ * Bootstrap Reboot v4.0.0 (https://getbootstrap.com)
+=======
  * Bootstrap Reboot v4.1.0 (https://getbootstrap.com/)
+>>>>>>> 768375875f23f5124ff0e217cf53fd2b9ef1124f
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -202,7 +206,11 @@ th {
 
 label {
   display: inline-block;
+<<<<<<< HEAD
+  margin-bottom: .5rem;
+=======
   margin-bottom: 0.5rem;
+>>>>>>> 768375875f23f5124ff0e217cf53fd2b9ef1124f
 }
 
 button {
